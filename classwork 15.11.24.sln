@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classwork 15.11.24", "classwork 15.11.24\classwork 15.11.24.csproj", "{DE3ABB55-9CF9-4510-A8B1-DA36352EB5F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classwork.API", "classwork 15.11.24\classwork.API.csproj", "{DE3ABB55-9CF9-4510-A8B1-DA36352EB5F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classwork.Core", "classwork.Core\classwork.Core.csproj", "{428A745B-3C9C-4EAF-898A-5190331EA1BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classwork.Storage", "classwork.Storage\classwork.Storage.csproj", "{45738557-8EC8-4D92-88AD-62ED642944DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{DE3ABB55-9CF9-4510-A8B1-DA36352EB5F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE3ABB55-9CF9-4510-A8B1-DA36352EB5F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE3ABB55-9CF9-4510-A8B1-DA36352EB5F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{428A745B-3C9C-4EAF-898A-5190331EA1BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{428A745B-3C9C-4EAF-898A-5190331EA1BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{428A745B-3C9C-4EAF-898A-5190331EA1BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{428A745B-3C9C-4EAF-898A-5190331EA1BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45738557-8EC8-4D92-88AD-62ED642944DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45738557-8EC8-4D92-88AD-62ED642944DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45738557-8EC8-4D92-88AD-62ED642944DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45738557-8EC8-4D92-88AD-62ED642944DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
